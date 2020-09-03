@@ -13,7 +13,7 @@ wget https://github.com/nreimers/truecaser/releases/download/v1.0/english_distri
 unzip english_distributions.obj.zip -d truecaser && rm english_distributions.obj.zip
 ```
 
-## KenLM
+### KenLM
 KenLM is a language modelling toolkit, which is used to assess grammaticallity in our system.
 Here we installed KenLM as follows:
 
@@ -72,7 +72,7 @@ sent = "I am look forway see you."
 print(correct(sent)) # 'I am looking forward to seeing you .'
 ```
 
-## For [frontend](https://github.com/NTHU-NLPLAB/lesserrors-frontend) usage
+### For [frontend](https://github.com/NTHU-NLPLAB/lesserrors-frontend) usage
 
 ```python
 import requests
