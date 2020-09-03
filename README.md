@@ -52,7 +52,7 @@ Having trained a model, finally run the following to binarise it.
 `/<your_path>/kenlm/build/bin/build_binary 1b.arpa /<lesserrors_path>/lmgec/resources/1b.bin` 
 This will both reduce model loading times and save hard drive space.
 
-# RUN server
+# Run server
 ```
 python3 manage.py runserver 0.0.0.0:<PORT_NUMBER>
 ```
