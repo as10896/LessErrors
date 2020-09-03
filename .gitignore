@@ -1,0 +1,9 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+migrations/
+lmgec_env/
+*.ipynb
+*.sqlite3
+*.obj
+*.bin
