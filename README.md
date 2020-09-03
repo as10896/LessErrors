@@ -1,5 +1,6 @@
 # LessErrors
 This repository contains a system designed to correct grammatical errors without using a parallel data.
+More information about this system can be found [here](https://github.com/as10896/LessErrors/blob/master/Thesis_yee0.pdf).
 
 # Installation
 ```
@@ -55,7 +56,7 @@ This will both reduce model loading times and save hard drive space.
 python3 manage.py runserver 0.0.0.0:<PORT_NUMBER>
 ```
 
-# API Examples
+# API examples
 ```python
 import requests
 def correct(sent, threshold=0.98, threshold_insert=0.92, generate_insertion_candidates=True, use_nli=True, use_truecase=True):
