@@ -19,8 +19,6 @@ Here we installed KenLM as follows:
 
 Navigate to the directory you want to install KenLM and then run:  
 ```
-wget https://github.com/nreimers/truecaser/releases/download/v1.0/english_distributions.obj.zip
-unzip english_distributions.obj.zip -d truecaser && rm english_distributions.obj.zip
 git clone https://github.com/kpu/kenlm.git
 mkdir kenlm/build
 cd kenlm/build
