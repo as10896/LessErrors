@@ -68,7 +68,7 @@ def correct(sent, threshold=0.98, threshold_insert=0.92, generate_insertion_cand
     else:
         return r.text
 
-sent = "I am look forway see you."
+sent = "I am looking forway see you."
 print(correct(sent)) # 'I am looking forward to seeing you .'
 ```
 
@@ -84,7 +84,7 @@ def correct_frontend(sent, threshold=0.98, threshold_insert=0.92, generate_inser
     else:
         return r.text
 
-sent = "I am look forway see you."
+sent = "I am looking forway see you."
 print(correct_frontend(sent))
-# {'proc': [[0, ['I am look forway see you .', -3.61, '--', '--']], [1, ['I am look [-forway-] {+forward+} see you .', -2.87, 0.74, 'SPELL']], [2, ['I am look forward {+to+} see you .', -2.15, 0.73, 'INSERT']], [3, ['I am [-look-] {+looking+} forward to see you .', -1.55, 0.6, 'MORPH']], [4, ['I am looking forward to [-see-] {+seeing+} you .', -1.21, 0.34, 'MORPH']]], 'result': [4, 'I am looking forward to seeing you .', 2.4]}
+# {'proc': [[0, ['I am looking forway see you .', -3.45, '--', '--']], [1, ['I am looking [-forway-] {+forward+} see you .', -2.44, 1.01, 'SPELL']], [2, ['I am looking forward {+to+} see you .', -1.55, 0.89, 'INSERT']], [3, ['I am looking forward to [-see-] {+seeing+} you .', -1.21, 0.34, 'MORPH']]], 'result': [3, 'I am looking forward to seeing you .', 2.24]}
 ```
